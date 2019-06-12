@@ -1,0 +1,18 @@
+.title {
+    color: black;
+    font-size: 40px;
+}
+
+.title:hover {
+    color: red;
+}
+
+.figure {
+    composes: another-mixin from "composes.a.css";
+    text-align: center
+}
+
+.title:focus, .figure:focus {
+    outline: none;
+    border: 1px solid red;
+}

@@ -1,0 +1,17 @@
+:global .page {
+    padding: 20px;
+}
+
+.title {
+    composes: title from "composes.mixins.css";
+    color: green;
+}
+
+.article {
+    font-size: 16px;
+}
+
+.figure {
+    composes: figure from "composes.mixins.css";
+    display: flex;
+}
